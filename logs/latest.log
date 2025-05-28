@@ -1,24 +1,25 @@
-[16:58:02] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:58:04] [ServerMain/INFO]: Loaded 1373 recipes
-[16:58:04] [ServerMain/INFO]: Loaded 1484 advancements
-[16:58:04] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[16:58:04] [Server thread/INFO]: Loading properties
-[16:58:04] [Server thread/INFO]: Default game type: SURVIVAL
-[16:58:04] [Server thread/INFO]: Generating keypair
-[16:58:04] [Server thread/INFO]: Starting Minecraft server on 87.154.144.244:25565
-[16:58:04] [Server thread/INFO]: Using default channel type
-[16:58:04] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[16:58:04] [Server thread/WARN]: The exception was: java.net.BindException: Cannot assign requested address: bind
-[16:58:04] [Server thread/WARN]: Perhaps a server is already running on that port?
-[16:58:04] [Server thread/ERROR]: Encountered an unexpected exception
+[16:59:39] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:59:40] [ServerMain/INFO]: No existing world data, creating new world
+[16:59:41] [ServerMain/INFO]: Loaded 1373 recipes
+[16:59:41] [ServerMain/INFO]: Loaded 1484 advancements
+[16:59:41] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[16:59:41] [Server thread/INFO]: Loading properties
+[16:59:41] [Server thread/INFO]: Default game type: SURVIVAL
+[16:59:41] [Server thread/INFO]: Generating keypair
+[16:59:41] [Server thread/INFO]: Starting Minecraft server on 87.154.144.244:25565
+[16:59:41] [Server thread/INFO]: Using default channel type
+[16:59:41] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[16:59:41] [Server thread/WARN]: The exception was: java.net.BindException: Cannot assign requested address: bind
+[16:59:41] [Server thread/WARN]: Perhaps a server is already running on that port?
+[16:59:41] [Server thread/ERROR]: Encountered an unexpected exception
 java.lang.IllegalStateException: Failed to initialize server
 	at net.minecraft.server.MinecraftServer.y(SourceFile:728) ~[server-1.21.5.jar:?]
 	at net.minecraft.server.MinecraftServer.a(SourceFile:290) ~[server-1.21.5.jar:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:58:04] [Server thread/ERROR]: This crash report has been saved to: C:\Users\busch\MinecraftServer\crash-reports\crash-2025-05-28_16.58.04-server.txt
-[16:58:04] [Server thread/INFO]: Stopping server
-[16:58:04] [Server thread/INFO]: Saving worlds
-[16:58:04] [Server thread/ERROR]: Exception stopping the server
+[16:59:41] [Server thread/ERROR]: This crash report has been saved to: C:\Users\busch\MinecraftServer\crash-reports\crash-2025-05-28_16.59.41-server.txt
+[16:59:41] [Server thread/INFO]: Stopping server
+[16:59:41] [Server thread/INFO]: Saving worlds
+[16:59:41] [Server thread/ERROR]: Exception stopping the server
 java.lang.NullPointerException: Cannot invoke "asb.E_()" because "$$5" is null
 	at net.minecraft.server.MinecraftServer.a(SourceFile:568) ~[server-1.21.5.jar:?]
 	at net.minecraft.server.MinecraftServer.v(SourceFile:627) ~[server-1.21.5.jar:?]
