@@ -22,7 +22,7 @@ def git_push():
 def start_minecraft_server():
     print("🚀 Starte Minecraft-Server...")
     try:
-        run_cmd([r"C:\Users\busch\Desktop\MinecraftServer\openjdk-21+35_windows-x64_bin\jdk-21\bin\java.exe", "-Xmx5G", "-Xms5G", "-jar", "server.jar", "nogui"])
+        run_cmd([r"C:\MinecraftServer\openjdk-21+35_windows-x64_bin\jdk-21\bin\jdk-21\bin\java.exe", "-Xmx5G", "-Xms5G", "-jar", "server.jar", "nogui"])
     except subprocess.CalledProcessError:
         print("❌ Fehler beim Starten des Servers.")
 
