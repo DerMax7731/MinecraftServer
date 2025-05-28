@@ -10,7 +10,7 @@
 
 📁 Schritte:
 1. Repository klonen (du bekommst den Link)
-   git clone https://github.com/deinName/MinecraftServer.git
+   git clone [https://github.com/deinName/MinecraftServer.git](https://github.com/DerMax7731/MinecraftServer)
 
 2. In den Ordner wechseln:
    cd MinecraftServer
