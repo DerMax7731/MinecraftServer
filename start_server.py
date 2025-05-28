@@ -27,7 +27,6 @@ def start_minecraft_server():
         print("❌ Fehler beim Starten des Servers.")
 
 def main():
-    name = input("👤 Dein Name: ")
     git_pull()
     start_minecraft_server()
     git_push()
